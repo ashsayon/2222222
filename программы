@@ -19,3 +19,17 @@ def f(n):
     else:
         return n*f(n-1)
 print (f(2023)/f(2020))
+
+
+
+-17-
+with open('17.txt') as f:
+    a=[int(x) for x in f]
+    abs=list(map(abs,a))
+for i in range(len(a)-1):
+    if(a[i]%10==3 and a[i+1]%10!=3) or (a[i]%10!=3 and a[i+11]==3):
+                                        count=+1
+ print(count)
+sp=[]
+for i in a:
+    
