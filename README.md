@@ -210,12 +210,7 @@ r=f(1,10, 10)
 print(g*r)
 ```
 
-
-
-
-```
-
--24-
+#24
 ```python
 with open('24.txt') as f:
     s=f.readline().replace('C','S').replace('D','S').replace('F','S')
@@ -229,11 +224,17 @@ with open('24.txt') as f:
         else:k=0
 print(kmax)
 
+```
+
+
 #25
 ```python
 for i in range (2023,10**10,2023):
     n=str(i)
     if n[0]=='1' and n[2:6]=='2139' and n[-1]=='4': print(i,i/2023)
+
+```
+
     
 #26
 ```python
@@ -249,5 +250,6 @@ with open('26.txt') as f:
     print(k, mini)
 
 
+```
 
     
