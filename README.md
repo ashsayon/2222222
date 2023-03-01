@@ -30,6 +30,32 @@
 | 27 | |
 
 
+#Уникальные команды#
+
+1. print('a')
+2. def f(c):
+3. for i in range():
+4. readline
+5. elif c<a:
+6. else: 
+7. while
+8.return 
+9. int
+10. input
+11. from turtle input
+12. with open
+13. left
+14.  forward
+15.  right
+16.   goto
+17.  dot
+18.   done
+19.   break
+20. nums=product  
+21. split()
+22. import  
+
+
 #5
   ```python
   for N in range (516):
@@ -249,7 +275,12 @@ with open('26.txt') as f:
             k+=1
     print(k, mini)
 
-
 ```
+#25
+```python
+for i in range (17,10**11,17):
+    n=str(i)
+    if n[0:5]=='12345' and n[5]=='6' and n[-1]=='8': print(i,i/17)
 
-    
+  
+```  
